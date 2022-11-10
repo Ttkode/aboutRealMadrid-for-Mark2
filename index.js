@@ -5,7 +5,6 @@ function welcome()
 console.log("Welcome to the Real Madrid Quiz")
 console.log(".......................")
 
-var userName = readlineSync.question('Hola Blanco, Como estas? Whats you name?,  ');
 var userName = readlineSync.question('Hola Blanco, Como estas? Whats you name?, ES TU? ');
 console.log('Bien ' + userName + ' ,now lets begin!!');
 console.log("........................")
@@ -68,7 +67,7 @@ function hereItIs()
 {
 for (var i=0; i<roundOne.length; i++)
   { var roundNow = roundOne[i]
-questys(roundNow.question, roundNow.answer)
+madrid(roundNow.question, roundNow.answer)
   }  
 }
 
